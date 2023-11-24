@@ -1,0 +1,32 @@
+.cadastro-main{
+    fieldset{
+        padding: 50px;
+        width: 50%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5%;
+
+        label, button, input{
+            padding: 15px;
+        }
+    
+    }
+    button{
+        margin-top: 15px;
+        display: block;
+        padding: 15px;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 141px;
+        
+    }
+
+    button:hover{
+        background-color: red;
+        transition: 2s;
+    }
+}

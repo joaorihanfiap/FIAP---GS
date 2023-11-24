@@ -1,0 +1,22 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "nome": "Joao",
+      "email": "jhon@fiap.com.br",
+      "senha": "12345"
+    },
+    {
+      "nome": "Admin",
+      "email": "alo@fiap.com.br",
+      "senha": "1234",
+      "id": 2
+    },
+    {
+      "nome": "Fernando",
+      "email": "fefe@fiap.com.br",
+      "senha": "1234",
+      "id": 3
+    }
+  ]
+}

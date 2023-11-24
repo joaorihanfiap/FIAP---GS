@@ -1,0 +1,239 @@
+.btn-img{
+    width: 10px;
+}
+.img{
+        
+    width: 40px;
+    border: none;
+    
+    
+}
+
+h2{
+    text-align: center;
+}
+
+main{
+    
+    width: 80%;
+    margin: auto;
+    
+
+
+    .grid{
+        display: grid;
+        gap: 15px;
+        grid-template-areas: 
+        "img img img lat lat"
+        "img img img lat lat"
+        "princ princ princ lat lat"
+        "princ princ princ lat lat"
+        ;
+    }
+
+    .conteudo-imagem{
+        grid-area: img;
+        border: none;
+        img{
+            width: 100%;
+        }
+        
+        
+        
+    }
+    
+    .conteudo-principal{
+        grid-area: princ;
+        display: flex;
+        padding: 15px;
+        border: none;
+        text-align: center;
+        h2{
+            margin-top: 30px;
+            font-size: 50px;
+        }
+        p{
+            text-align:  justify;
+            margin-left: 40px;
+            
+            padding: 15px;
+            border: 1px solid black;
+            font-size: 20px;
+        }
+    }
+    
+    .conteudo-lateral{
+        grid-area: lat;
+        padding: 15px;;
+        border: 1px solid black;
+        
+        
+        .solução, .sobre{
+            border-bottom: 1px solid black;
+            
+            
+        }
+
+        div{
+            padding: 40px;
+        }
+    }
+    
+
+    .um{
+
+        h3{
+            font-size: 40px;
+            margin: 15px;
+            text-align: center;
+        }
+
+        .vantagens{
+            display: flex;
+            gap: 50px;
+    
+            
+            
+            
+            
+            
+            .vantagem1, .vantagem2, .vantagem3 {
+                font-size: 20px;
+                text-align: justify;
+                flex: 1;
+                justify-content: space-between;
+                padding: 40px;
+                border: 1px solid black;
+                
+            }  
+            
+            
+        }
+    }
+
+    @media only screen and (max-device-width: 1400px){
+
+        
+        .grid{
+            display: grid;
+            gap: 15px;
+            grid-template-areas: 
+            "img img"
+            "princ princ"
+            "lat lat"
+            
+            ;
+        }
+        .conteudo-principal{
+            grid-area: princ;
+            padding: 15px;
+            border: none;
+            text-align: center;
+            h2{
+                margin-top: 30px;
+                font-size: 40px;
+            }
+            p{
+                text-align:  justify;
+                padding: 15px;
+                border: 1px solid black;
+                font-size: 20px;
+            }
+        }
+    }
+
+   
+    @media only screen and (max-device-width: 900px) {
+        
+
+        p{
+            font-size: 12px;
+        }
+        .um{
+
+            h3{
+                font-size: 20px;
+               
+                text-align: center;
+            }
+    
+            .vantagens{
+                display: flex;
+                gap: 20px;
+    
+                
+                .vantagem1, .vantagem2, .vantagem3 {
+                    font-size: 16px;
+                    text-align: justify;
+                    flex: 1;
+                    justify-content: space-between;
+                    padding: 10px;
+                    border: 1px solid black;
+                    
+                }  
+                
+                
+            }
+        }
+        .conteudo-principal{
+            
+            padding: 10px;
+            flex-direction: column;
+            
+            h2{
+                margin-top: 20px;
+                font-size: 30px;
+            }
+            p{
+                text-align:  justify;
+                padding: 15px;
+                border: 1px solid black;
+                font-size: 16px;
+                margin-left: 0;
+            }
+        }
+        
+
+
+    }
+    @media only screen and (max-device-width: 500px) {
+        
+
+        .um{
+
+            h3{
+                font-size: 20px;
+                text-align: center;
+            }
+    
+            .vantagens{
+                display: flex;
+                gap: 1%;
+    
+                
+                .vantagem1, .vantagem2, .vantagem3 {
+                    flex: 1;
+                    justify-content: space-between;
+                    padding: 1%;
+                    border: 1px solid black;
+                    
+                }  
+                
+                
+            }
+        }
+        
+        
+
+
+    }
+    
+
+    
+        
+                         
+                    
+}
+    
+    
+    
