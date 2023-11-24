@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 export default function AdicionarUsuario() {
-  document.title = "ADICIONAR Usuario";
+  document.title = "Adicionar Usuario";
   const navigate = useNavigate();
   const [usuario, setUsuario] = useState({
     nome: '',
@@ -46,7 +46,7 @@ export default function AdicionarUsuario() {
   return (
     <>
       <main className="cadastro-main">
-        <h1>Formulário de cadastro</h1>
+        <h1>Formulário de Cadastro</h1>
 
         <form name="Cadastro" onSubmit={handleSubmit}>
           <fieldset>
