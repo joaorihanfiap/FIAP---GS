@@ -3,6 +3,9 @@
 Fernando Popolili Lameira Pires - RM99919
 Joao Antonio Vieira Rihan - rm99656
 
+Repositório Github:
+https://github.com/joaorihanfiap/global-js-web
+
 # Como Rodar
 
 Para rodar o projeto, basta ter os arquivos abertos no VS Code, e rodar os seguintes comandos:
