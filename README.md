@@ -19,7 +19,7 @@ Para se cadastrar, basta ir na página de cadastro, e criar um usuário com Nome
 
 Usuário Admin:
       email: alo@fiap.com.br
-      senha: 1234
+      senha: 12345
 
 Demais usuários padrão podem ser encontrados na database em login.json
 
