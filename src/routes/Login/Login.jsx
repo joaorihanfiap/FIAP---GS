@@ -104,8 +104,8 @@ export default function ConteudoLogin() {
             
             
             <div className="bt">
-              <p>Ainda não possui uma conta?</p>
-              <button onClick={() => navigate("/cadastro")}>CRIAR CONTA</button>
+              <p>Ainda não possui uma Conta?</p>
+              <button onClick={() => navigate("/cadastro")}>CADASTRE-SE</button>
             </div>
           </div>
         </form>
