@@ -9,13 +9,13 @@
     {
       "nome": "Admin",
       "email": "alo@fiap.com.br",
-      "senha": "1234",
+      "senha": "12345",
       "id": 2
     },
     {
       "nome": "Fernando",
       "email": "fefe@fiap.com.br",
-      "senha": "1234",
+      "senha": "12345",
       "id": 3
     }
   ]
